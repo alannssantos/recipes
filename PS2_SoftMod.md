@@ -3,8 +3,8 @@
   * Um PS2 Já desbloqueado (caso o FreeDVDBoot não funcione para seu modelo).
   * Memory Card com wLauncher ou uLauncher.
   * Pendrive formatado em FAT32.
-## Items compactados:
-  * [PS2_SoftMod.z7](https://raw.githubusercontent.com/alannssantos/recipes/refs/heads/main/PS2_SoftMod.7z):
+## Itens compactados:
+  * [PS2_SoftMod.7z](https://raw.githubusercontent.com/alannssantos/recipes/refs/heads/main/PS2_SoftMod.7z):
     * FMCB (1953, 1966)
     * Funtuna Fork
     * Emuladores:
