@@ -4,7 +4,7 @@
   * Memory Card com wLauncher ou uLauncher.
   * Pendrive formatado em FAT32.
 ## Itens compactados:
-  * [PS2_SoftMod.7z](https://raw.githubusercontent.com/alannssantos/recipes/refs/heads/main/PS2_SoftMod.7z):
+  * [PS2_SoftMod.7z](https://raw.githubusercontent.com/alannssantos/recipes/refs/heads/main/archives/PS2_SoftMod.7z):
     * FMCB (1953, 1966)
     * Funtuna Fork
     * Emuladores:
