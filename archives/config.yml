@@ -1,0 +1,115 @@
+tasks:
+  # Transmission só funciona com `pip3 install transmission-rpc`.
+  # Mais informações `https://flexget.com/Plugins/transmission`.
+  # Remove torrent depois de Upar a mesma quantidade!
+  # Limpeza:
+  #   disable: [seen, seen_info_hash]
+  #   accept_all: yes
+  #   from_transmission:
+  #     only_complete: yes
+  #   if:
+  #     - ratio < 1.0: reject
+  #   transmission:
+  #     action: remove
+  #   template: no_global
+  ################################################################
+  # Animes:
+  #   discover:
+  #     what:
+  #       - next_series_episodes: yes
+  #     from:
+  #       - nyaa:
+  #           category: "anime"
+  #           filter: "all"
+  #     interval: 15 minutes
+  #     release_estimations: ignore
+  #   series:
+  #     settings:
+  #       shows:
+  #         quality: 720p-1080p
+  #         propers: 2 days
+  #     shows:
+  #       # Spring
+  #       - "The Super Cube":
+  #           begin: S01E01
+  #           from_group:
+  #             - ToonsHub
+  #       - "Sentai Daishikkaku":
+  #           begin: S02E01
+  #           from_group:
+  #             - DKB
+  #       - "Kijin Gentoushou":
+  #           begin: 01
+  #           from_group:
+  #             - WF
+  #   thetvdb_lookup: yes
+  #   transmission:
+  #     host: localhost
+  #     port: 9091
+  #     username: ""
+  #     password: ""
+  #     path: "/media/HardDisk/Jellyfin/Animes/{{tvdb_series_name}}/Season {{tvdb_season}}/"
+  ################################################################
+  # Series:
+  #   discover:
+  #     what:
+  #       - next_series_seasons: yes
+  #       - next_series_episodes: yes
+  #     from:
+  #       - 1337x: yes
+  #     interval: 15 minutes
+  #     release_estimations: loose
+  #   content_size:
+  #     min: 900 MiB
+  #     strict: no
+  #   series:
+  #     settings:
+  #       shows:
+  #         from_group:
+  #           - TGx
+  #           - FLUX
+  #           - TURG
+  #         quality: 1080p
+  #         propers: 2 days
+  #         season_packs: yes
+  #     shows:
+  #       - "The Legend of Vox Machina":
+  #           begin: S04E01
+  #       - "Percy Jackson and the Olympians":
+  #           begin: S02E01
+  #       - Severance:
+  #           begin: S03E01
+  #       - Invincible:
+  #           begin: S04E01
+  #       - "Gen V":
+  #           begin: S02E01
+  #   thetvdb_lookup: yes
+  #   transmission:
+  #     host: localhost
+  #     port: 9091
+  #     username: ""
+  #     password: ""
+  #     path: "/media/HardDisk/Jellyfin/Series/{{tvdb_series_name}}/Season {{tvdb_season}}/"
+  ################################################################
+  # Filmes adcionado com `flexget movie_list add (nome do filme|id_imdb)`
+  # Filmes:
+  #   discover:
+  #     what:
+  #       - movie_list: movies
+  #     from:
+  #       - yts: yes
+  #     interval: 15 minutes
+  #     release_estimations: ignore
+  #   list_match:
+  #     from:
+  #       - movie_list: movies
+  #   quality:
+  #     - 1080p
+  #     - bluray|webrip
+  #   imdb_lookup: yes
+  #   transmission:
+  #     host: localhost
+  #     port: 9091
+  #     username: ""
+  #     password: ""
+  #     path: /media/HardDisk/Jellyfin/Filmes
