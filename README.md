@@ -3,7 +3,7 @@
   * [Batocera Dual Boot com linux](https://github.com/alannssantos/recipes/#batocera-em-dual-boot-com-linux)
   * [PS2 SoftMod](https://github.com/alannssantos/recipes/#ps2-softmod)
   * [Gerenciador de Memory Card do PS2](https://github.com/alannssantos/recipes/#gerenciador-de-memory-card-do-ps2)
-  * [Firefox user.js](https://github.com/alannssantos/recipes/#firefox-user.js)
+  * [Firefox user.js](https://github.com/alannssantos/recipes/#firefox-userjs)
   * [Pen drive Bootável](https://github.com/alannssantos/recipes/?tab=readme-ov-file#pen-drive-boot%C3%A1vel)
   * [Flexget](https://github.com/alannssantos/recipes/?tab=readme-ov-file#flexget)
 ### Batocera em Dual Boot com linux.
