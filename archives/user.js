@@ -20,6 +20,12 @@
 /** GENERAL ***/
 user_pref("content.notify.interval", 100000);
 
+/** ENABLE HARDWARE VIDEO ACCELERATION **/
+user_pref("media.ffmpeg.vaapi.enabled", true);
+user_pref("media.ffvpx.enabled", false);
+user_pref("media.rdd-vpx.enabled", false);
+user_pref("media.navigator.mediadatadecoder_vpx_enabled", true);
+
 /** GFX ***/
 user_pref("gfx.canvas.accelerated.cache-size", 512);
 user_pref("gfx.content.skia-font-cache-size", 20);
