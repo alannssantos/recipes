@@ -92,6 +92,9 @@ user_pref("privacy.history.custom", true);
 /** TITLEBAR ***/
 user_pref("browser.tabs.inTitlebar", 1);
 
+/** TABBAR **/
+user_pref("sidebar.verticalTabs", true);
+
 /** SEARCH / URL BAR ***/
 user_pref("browser.urlbar.trimHttps", true);
 user_pref("browser.urlbar.untrimOnUserInteraction.featureGate", true);
