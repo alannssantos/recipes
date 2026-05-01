@@ -6,6 +6,7 @@
   * [Firefox user.js](https://github.com/alannssantos/recipes/#firefox-userjs)
   * [Pen drive Bootável](https://github.com/alannssantos/recipes/?tab=readme-ov-file#pen-drive-boot%C3%A1vel)
   * [Flexget](https://github.com/alannssantos/recipes/?tab=readme-ov-file#flexget)
+  * [Gnome Terminal Theme](https://github.com/alannssantos/recipes/?tab=readme-ov-file#gnome-terminal-theme)
 ### Batocera em Dual Boot com linux.
    * As instruções já estão no [script](https://raw.githubusercontent.com/alannssantos/recipes/refs/heads/main/archives/15_batocera).
      * (Nunca rode um script sem saber o que ele faz ou rode caso confie em quem o fez).
@@ -29,3 +30,7 @@
      ```
 ### [Flexget](https://github.com/alannssantos/recipes/blob/main/archives/Flexget.md).
    * Automatiza downloads de séries e animes via torrent.
+### [Gnome Terminal Theme](https://raw.githubusercontent.com/alannssantos/recipes/refs/heads/main/archives/everforest.dconf).
+   ```bash
+   dconf load /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/ < ~/<destino do arquivo>.dconf 
+   ```
