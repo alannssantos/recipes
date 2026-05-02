@@ -1,5 +1,6 @@
 [/]
 background-color='rgb(30,35,38)'
+cursor-blink-mode='off'
 custom-command='tmux new -As0'
 font='JetBrainsMono Nerd Font Mono 11'
 foreground-color='rgb(211,198,170)'
